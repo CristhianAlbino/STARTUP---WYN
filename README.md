@@ -25,7 +25,6 @@ Este repositório contém o código-fonte para o backend e frontend do projeto W
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/wyn.git
 Entre na pasta do projeto:
 
 cd wyn

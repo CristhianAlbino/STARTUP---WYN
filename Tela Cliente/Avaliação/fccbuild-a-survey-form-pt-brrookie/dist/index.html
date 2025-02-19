@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Avaliação WYN</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="container">
+  <header class="header"> 
+    <h1 id="title"><i class="icon-star"></i>&nbsp;&nbsp; Avaliação WYN</h1>
+    <p id="description">Nos ajude a melhorar nossos serviços avaliando sua experiência.</p>
+    <form id="survey-form">
+      
+      <div class="grupoform1"> 
+        <label id="name-label" for="name">Nome</label>
+        <input type="text" id="name" placeholder="Informe seu nome" required />
+      </div>
+      
+      <div class="grupoform2">
+        <label id="email-label" for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Informe seu e-mail" required />
+      </div>
+      
+      <div class="grupoform3">
+        <p>Como você avaliaria a sua experiência com o serviço prestado?</p>
+        <select id="avaliacao-servico" name="avaliacao-servico">
+          <option value="escolha" disabled selected>Escolha uma opção</option>
+          <option value="excelente">Excelente</option>
+          <option value="bom">Bom</option>
+          <option value="regular">Regular</option>
+          <option value="ruim">Ruim</option>
+        </select>
+      </div>
+      
+      <div class="grupoform4">
+        <p>Você utilizou algum desses recursos adicionais?</p>
+          <div class="checkbox">
+            <input type="checkbox" id="urgente" name="recursos" value="urgente">
+            <label for="urgente"> Serviço Urgente</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="materiais" name="recursos" value="materiais">
+            <label for="materiais"> Fornecimento de Materiais</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="suporte" name="recursos" value="suporte">
+            <label for="suporte"> Suporte Técnico</label>
+          </div>
+      </div>
+      
+      <div class="grupoform5">
+        <p>Você recomendaria o WYN para outras pessoas?</p>
+          <div class="radios"> 
+            <input type="radio" id="sim" name="recomendacao" value="sim" required>
+            <label for="sim">Sim</label>
+         </div>
+        <div class="radios">
+            <input type="radio" id="nao" name="recomendacao" value="nao">
+            <label for="nao">Não</label>
+         </div>
+      </div>
+      
+      <div class="grupoform6">
+        <p>Deixe seu feedback ou sugestões:</p>
+        <textarea class="caixatexto" name="feedback" placeholder="Compartilhe sua opinião sobre a plataforma ou o serviço prestado." style="width:450px; height:100px;"></textarea>
+      </div>
+      
+      <input class="btn" type="submit" value="Enviar Avaliação" id="submit">  
+      
+    </form>
+    <h5 class="rodape">WYN - Avaliações e Feedbacks</h5>    
+      
+  </header>
+</main>
+</body>
+</html>
